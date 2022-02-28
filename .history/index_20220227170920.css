@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: violet;
+}
+
+
+
+
+input {
+    color: #5f9341;
+}
+
+button {
+   background-color: #5f9341;
+}
