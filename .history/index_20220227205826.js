@@ -1,9 +1,8 @@
 
-let myLeads=`["www.google.com"]`
-myLeads = JSON.parse(myLeads);
+let myLeads=["www.google.com"]
 
-myLeads.push("facebook.com")
 myLeads = JSON.stringify(myLeads);
+
 console.log(typeof myLeads)
 
 const inputEl=document.getElementById("input-el")

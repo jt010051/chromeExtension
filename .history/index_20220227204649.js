@@ -1,17 +1,11 @@
 
-let myLeads=`["www.google.com"]`
-myLeads = JSON.parse(myLeads);
-
-myLeads.push("facebook.com")
-myLeads = JSON.stringify(myLeads);
-console.log(typeof myLeads)
-
+let myLeads=[]
 const inputEl=document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 
 const ulEl = document.getElementById("ul-el")
 
-
+console.log(localStorage.getItem("setVariable"))
 inputBtn.addEventListener("click", function(){
 myLeads.push(inputEl.value)
 inputEl.value = ""
